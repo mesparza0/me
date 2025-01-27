@@ -1,0 +1,88 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container to center the content */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 8px;
+}
+
+/* Header section */
+.main-info {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.main-info h1 {
+    margin: 10px 0;
+    font-size: 1.8em;
+}
+
+/* General section styling */
+section {
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section:last-of-type {
+    border-bottom: none;
+    border-radius: 0 0 8px 8px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Specific section styling */
+.lewis,
+.course,
+.job,
+.hobbies,
+.fun-fact {
+    background: #e7e7e7;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.lewis h2,
+.course h2,
+.job p:first-of-type,
+.hobbies h2,
+.fun-fact h2 {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Extra styling for headers */
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Add hover effects for interactive feel */
+section:hover {
+    background: #f0f0f0;
+    transition: background 0.3s ease-in-out;
+}
